@@ -165,7 +165,7 @@
                 Valid values WFD_HDCP_2_0,
                 WFD_HDCP_2_1 and WFD_HDCP_2_2
             -->
-            <Version>WFD_HDCP_2_3</Version>
+            <Version>WFD_HDCP_2_2</Version>
             <CPPort>6789</CPPort>
             <!--
                 turn on/off audio encryption
