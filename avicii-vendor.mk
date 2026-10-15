@@ -281,6 +281,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/avicii/proprietary/vendor/etc/camera/darksight/darksight_ultrawide.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/darksight/darksight_ultrawide.bin \
     vendor/oneplus/avicii/proprietary/vendor/etc/camera/distortion_result.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortion_result.bin \
     vendor/oneplus/avicii/proprietary/vendor/etc/camera/distortion_result_front.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/distortion_result_front.bin \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b00:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b00 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b01:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b01 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b02:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b02 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b03:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b03 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b04:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b04 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b05:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b05 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b06:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b06 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.b07:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.b07 \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/faceapp.mdt:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/faceapp.mdt \
+    vendor/oneplus/avicii/proprietary/vendor/etc/faceunlock/resources.zip:$(TARGET_COPY_OUT_VENDOR)/etc/faceunlock/resources.zip \
     vendor/oneplus/avicii/proprietary/vendor/etc/charger_fstab.qti:$(TARGET_COPY_OUT_VENDOR)/etc/charger_fstab.qti \
     vendor/oneplus/avicii/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/oneplus/avicii/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
@@ -913,6 +923,7 @@ PRODUCT_PACKAGES += \
     libssd \
     libssrec \
     libstblur_capture_api \
+    libstfaceunlockocl \
     libstdc++_vendor \
     libswregistrationalgo \
     libsymphony-cpu \
